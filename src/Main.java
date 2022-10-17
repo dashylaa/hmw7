@@ -50,8 +50,7 @@ public class Main {
     private static void task4() {
         int start = 0;
         int salary = 15000;
-        int i = 0;
-        for (; start < 12_500_000; i++) {
+        for (int i = 0; start < 12_500_000; i++) {
 
             salary = salary * 7 / 100 + salary;
             start = salary + start;
@@ -71,9 +70,8 @@ public class Main {
 
             salary = salary * 7 / 100 + salary;
             start = 6 * salary + start;
-            if (i % 6 == 0)
 
-                System.out.println(i + " месяцев " + start);
+            System.out.println(i + " месяцев " + start);
 
 
         }
@@ -82,7 +80,7 @@ public class Main {
     private static void task6() {
         int friday = 1;
         for (int n = 1; n < 30; n++) {
-            if (n % 7 == 1) {
+            if (n % 7 == friday) {
                 System.out.println("Пора сдавать отчет!Сегодня пятница " + n + " число");
             }
 
@@ -91,7 +89,8 @@ public class Main {
     }
 
     private static void task7() {
-        for (int i = 2; i == 2; i++) {
+        int i = 2;
+        {
             for (int k = 1; k <= 10; k++) {
                 System.out.print(k * i + "  ");
             }
@@ -106,8 +105,7 @@ public class Main {
         for (; start <= 2_459_000; i++) {
 
             start = salary + start;
-            if (start >= 2459000) ;
-            else if (i % 1 == 0) {
+            {
                 System.out.println(i + " месяцев " + start);
 
 
@@ -116,10 +114,16 @@ public class Main {
     }
 
     private static void task9() {
+        int start = 200;
+        int finish = 100;
         int i = 0;
-        for (i = 0; i <= 2122; i++) {
-            if (i % 79 == 0)
-                System.out.println(i);
-        }
-    }
-}
+        for (; start <=200; i=i+79) {
+            start = 2022-start+finish;
+            if (start <=200) ;
+            else if (i % 79 == 0) {
+                System.out.println( + start);
+         for (i = 0; i <= 2122; i++)
+             if(i%79==0&&i>=1822)
+                 System.out.println(i);
+
+                 }}}}
