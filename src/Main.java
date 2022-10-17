@@ -7,6 +7,8 @@ public class Main {
         task5();
         task6();
         task7();
+        task8(); //доделала самую первую задачу в этом таске
+        task9();//доделала задачу про космос,но выходит что-то не то
     }
 
     private static void task1() {
@@ -97,6 +99,30 @@ public class Main {
         }
     }
 
+    private static void task8() {
+        int start = 0;
+        int salary = 15000;
+        int i = 0;
+        for (; start <= 2_459_000; i++) {
+
+            start = salary + start;
+            if (start >= 2459000) ;
+            else if (i % 1 == 0) {
+                System.out.println(i + " месяцев " + start);
 
 
+            }
+        }
     }
+
+    private static void task9() {
+        int start = 200;
+        int finish = 100;
+        int i = 0;
+        for (; start <=200; i=i+79) {
+
+            start = 2022-start+finish;
+            if (start <=200) ;
+            else if (i % 79 == 0) {
+                System.out.println( + start);
+            }}}}
