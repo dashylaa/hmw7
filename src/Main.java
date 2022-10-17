@@ -12,7 +12,7 @@ public class Main {
     private static void task1(){
 int start=0;
         while (start <=10)
-        {  System.out.print(" "+ start +" " );
+        {  System.out.print(" "+ start +"  " );
             System.out.print("");
         start++;}
 
