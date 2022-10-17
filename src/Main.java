@@ -114,16 +114,13 @@ public class Main {
     }
 
     private static void task9() {
-        int start = 200;
-        int finish = 100;
         int i = 0;
-        for (; start <=200; i=i+79) {
-            start = 2022-start+finish;
-            if (start <=200) ;
-            else if (i % 79 == 0) {
-                System.out.println( + start);
-         for (i = 0; i <= 2122; i++)
-             if(i%79==0&&i>=1822)
-                 System.out.println(i);
+        for (i = 0; i <= 2122; i++) {
+            if (i > 1822 && i % 79 == 0) {
+                    System.out.println(i);
 
-                 }}}}
+
+                }
+            }
+        }
+    }
